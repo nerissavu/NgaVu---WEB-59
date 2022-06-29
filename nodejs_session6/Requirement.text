@@ -1,0 +1,16 @@
+Step1: Init Project (MongoDB + Express) // Done
+Step2: Tao collection student trong mongodb (mongodbcompass)
+Step3: Tao router GET, CREATE, UPDATE, DELETE
+Step 4: Router GET 
+- Neu khong co param, querry => Get all student
+- Neu querry theo id => Get Student by id
+- Neu querry theo name => Get Student by name
+
+Step 5: Router CREATE (POST)
+- Them 1 document vao trong collection Student
+- Them nhieu document
+Step 6: Router UPDATE (PUT)
+- Client gui ID trong querry => App se tim id roi update theo body
+
+Step 7: Router DELETE (DELETE)
+- Client gui ID trong querry => App se tim id roi delete. Khong co thi return error
