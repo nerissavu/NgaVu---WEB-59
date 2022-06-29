@@ -33,6 +33,7 @@ studentRouter.post("/add-many", async(req, res) => {
 })
 
 studentRouter.get("/", async(req, res) => {
+
     try {
         const id = req.headers.id
         const student = await db.students.findOne({
